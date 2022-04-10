@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "ng-oshop-ffda4": {
+      "hosting": {
+        "oshop": [
+          "ng-oshop-ffda4"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "ng-oshop-ffda4"
+  }
+}
