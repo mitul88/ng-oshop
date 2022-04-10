@@ -103,6 +103,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "oshop:build:production",
+            "firebaseProject": "ng-oshop-ffda4",
+            "firebaseHostingSite": "ng-oshop-ffda4"
+          }
         }
       }
     }
